@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.task-section {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.profile-card {
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+}
+
+.profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+}
+
+.group-text {
+    font-weight: bold;
+    color: #7f8c8d;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.layout-container {
+    border: 2px solid #bdc3c7;
+    background-color: #ecf0f1;
+    overflow: hidden;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.layout-header {
+    background-color: #2980b9;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.layout-nav {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+.layout-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.layout-nav a:hover {
+    color: #3498db;
+}
+
+.layout-sidebar {
+    float: left;
+    width: 30%;
+    background-color: #dfe6e9;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 180px;
+}
+
+.layout-main {
+    float: right;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 180px;
+    border-left: 1px solid #bdc3c7;
+}
+
+.layout-footer {
+    clear: both;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#table-heading {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.grades-table th, 
+.grades-table td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.grades-table th {
+    background-color: #2980b9;
+    color: white;
+}
+
+.grades-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.grades-table .highlight-row {
+    background-color: #fff3cd; 
+}
+
+
+#form-heading {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.feedback-form {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.feedback-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #fdfdfd;
+}
+
+.feedback-form input:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.3);
+}
+
+.radio-group {
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #219653;
+}
