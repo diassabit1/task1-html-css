@@ -11,7 +11,7 @@ This project contains the completed tasks for Assignment #1, focusing on foundat
 
 ### 🚀 Live Demo
 You can view the live published website here:  
-👉 [GitHub Pages Live Link](https://diassabit1.github.io/task1-html-css/) *(replace with your exact link if needed)*
+👉 [GitHub Pages Live Link](https://diassabit1.github.io/task1-html-css/) 
 
 ---
 
