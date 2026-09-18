@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Table & Form - Dias Sabit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Assignment #1: Task 4</h1>
+        <p>Student: Dias Sabit | Group: SE-2526</p>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Task 1: Personal Webpage</a></li>
+            <li><a href="task2.html">Task 2: Layout (Float)</a></li>
+            <li><a href="exercise1/index.html" target="_blank">Task 3: Tribute Page</a></li>
+            <li><a href="task4.html">Task 4: Table & Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Table Exercise -->
+        <section class="task-section">
+            <h2 id="table-heading">Student Grades Table</h2>
+            <table class="grades-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dias Sabit</td>
+                        <td>WEB Technologies 1</td>
+                        <td>A</td>
+                    </tr>
+                    <tr class="highlight-row">
+                        <td>Yerzhan Aitimov</td>
+                        <td>WEB Technologies 1</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>Assylzhan Amangeldi</td>
+                        <td>Data Structures</td>
+                        <td>A-</td>
+                    </tr>
+                    <tr>
+                        <td>Balzhan Amantayeva</td>
+                        <td>Database Management</td>
+                        <td>B</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+        <!-- Form Exercise -->
+        <section class="task-section">
+            <h2 id="form-heading">Feedback Form</h2>
+            <form class="feedback-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Role:</label>
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Do you like this website?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="feedback" value="yes" checked> Yes</label>
+                        <label><input type="radio" name="feedback" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Astana IT University</p>
+    </footer>
+</body>
+</html>
